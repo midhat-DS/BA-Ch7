@@ -83,3 +83,26 @@
     letter-spacing: 0em;
     text-align: center;   
 }
+
+.jumbotron {
+    background: #0D28A6;
+    margin-top: 180px;
+    padding: 100px;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 20px;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.jumbotron .btn-cm{
+    width: 200px;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+.faq {
+    padding-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
