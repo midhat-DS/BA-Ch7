@@ -5,8 +5,8 @@ import Img from '../assets/img/img_logo.png'
 const NavigationBar = () => {
 
     return(
-        <ReactBS.Navbar className="navb navbar-expand-lg ps-5 pe-5">
-            <ReactBS.Container className="navCont container-lg my-1">
+        <ReactBS.Navbar className="navBar navbar-expand-lg ps-5 pe-5 fixed-top">
+            <ReactBS.Container className="navCont container-lg my-1" >
                 <ReactBS.Navbar.Brand><ReactBS.Image src={Img} /></ReactBS.Navbar.Brand>
                 <ReactBS.Nav>
                     <ReactBS.Nav.Link>Our services</ReactBS.Nav.Link>
