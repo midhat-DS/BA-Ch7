@@ -1,5 +1,4 @@
 import React from 'react';
-// import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBContainer, CDBBox } from 'cdbreact';
 import * as ReactBS from 'react-bootstrap'
 import fb from '../assets/ic/icon_facebook.svg'
 import twi from '../assets/ic/icon_twitter.svg'
@@ -19,13 +18,10 @@ const Footer = ()=>{
             <p lassName="" style={{ width: '250px' }}>081-233-334-808</p>
           </ReactBS.Col>
           <ReactBS.Col>
-                  <a href="#services">Our Services</a>
-                  <p></p>
-                  <a href="#why">Why Us</a>
-                  <p></p>
-                   <a href="#testimonial">Testimonial</a>
-                   <p></p>
-                   <a href="#faq">FAQ</a>
+            <ReactBS.Nav.Link href="#myServ">Our services</ReactBS.Nav.Link>
+            <ReactBS.Nav.Link href="#why">Why Us</ReactBS.Nav.Link>
+            <ReactBS.Nav.Link href="#testimonial">Testimonial</ReactBS.Nav.Link>
+            <ReactBS.Nav.Link href="#faq">FAQ</ReactBS.Nav.Link>
           </ReactBS.Col>
           <ReactBS.Col>
             <p className="h5 mb-4" style={{ fontWeight: '600' }}>Connect with us</p>
@@ -41,47 +37,7 @@ const Footer = ()=>{
           <ReactBS.Image src={Img} alt=""></ReactBS.Image>
           </ReactBS.Col>
         </ReactBS.Row>
-      </ReactBS.Container>
-
-
-        // <CDBContainer>
-        //     <CDBFooter className="shadow">
-        //   <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
-        //     <CDBBox display="flex" justifyContent="between" className="flex-wrap">
-        //       <CDBBox>
-        //         <p className="my-3" style={{ width: '250px' }}>
-        //         Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
-        //         </p>
-        //         <p lassName="my-3" style={{ width: '250px' }}>binarcarrental@gmail.com</p>
-        //         <p lassName="my-3" style={{ width: '250px' }}>081-233-334-808</p>
-        //       </CDBBox>
-        //         <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0' }}>
-        //           <CDBFooterLink href="#services">Our Services</CDBFooterLink>
-        //           <CDBFooterLink href="#why">Why Us</CDBFooterLink>
-        //           <CDBFooterLink href="#testimonial">Testimonial</CDBFooterLink>
-        //           <CDBFooterLink href="#faq">FAQ</CDBFooterLink>
-        //         </CDBBox>
-        //       <CDBBox>
-        //         <p className="h5 mb-4" style={{ fontWeight: '600' }}>
-        //         Connect with us
-        //         </p>
-        //         <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                    
-        //         </CDBBox>
-        //       </CDBBox>
-        //       <CDBBox>
-        //         <p className="h5 mb-4" style={{ fontWeight: '600' }}>
-        //         Copyright  Binar 2022
-        //         </p>
-        //         <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-        //           <CDBFooterLink href="/">Contrast</CDBFooterLink>
-        //         </CDBBox>
-        //       </CDBBox>
-        //     </CDBBox>
-        //   </CDBBox>
-        // </CDBFooter>
-        // </CDBContainer>
-        
+      </ReactBS.Container>       
       );
 }
 export default Footer

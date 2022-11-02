@@ -7,11 +7,10 @@ import imgPro from '../../assets/ic/icon_professional.svg'
 const WhyUs = ()=>{
     return(
 
-        <div>
-            <p>Mengapa harus pilih Binar Car Rental?</p>
-        </div>,
             <ReactBS.Container className="whyUs">
                 <ReactBS.Row>
+                    <h1>Why Us</h1>
+                    <p>Mengapa harus pilih Binar Car Rental?</p>
                     <ReactBS.Col className="cardC col-lg">
                         <ReactBS.Card ClassName="comp">
                             <ReactBS.Card.Body >

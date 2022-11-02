@@ -4,7 +4,7 @@ import img from '../../assets/img/img_service.png'
 import ic from '../../assets/ic/icon_Group_53.svg'
 const OurServices = ()=>{
     return(
-        <ReactBS.Container>
+        <ReactBS.Container className="orServ">
             <ReactBS.Row>
                 <ReactBS.Col className="servCol col-lg-7 ">
                 <ReactBS.Image src={img}/>
