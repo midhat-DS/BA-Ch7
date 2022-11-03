@@ -1,5 +1,6 @@
 import "./App.css"
 import "./Style/landingPage.css"
+import "./Style/cars.css"
 import LandingPage from "./components/Landingpage.js";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";

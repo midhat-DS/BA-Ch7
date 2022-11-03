@@ -1,7 +1,7 @@
 import * as ReactBS  from "react-bootstrap"
 // import {Navbar, Container, Nav, Button, Image} from "react-bootstrap"
 import Img from '../assets/img/img_logo.png'
-import OurServices from "./landingPage/OurServices.js"
+
 
 const NavigationBar = () => {
 

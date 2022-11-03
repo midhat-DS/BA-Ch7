@@ -9,7 +9,7 @@ const GetSta = ()=>{
             <ReactBS.Row className="jumbotron">
                 <h1>Sewa Mobil di Karawang Sekarang</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <ReactBS.Button className="btn-cm"variant="success" href="/cars">Mulai Sewa Mobil</ReactBS.Button>{''}
+                <ReactBS.Button className="btn-cm" variant="success" href="/sewa">Mulai Sewa Mobil</ReactBS.Button>{''}
             </ReactBS.Row>
         </item>
         
