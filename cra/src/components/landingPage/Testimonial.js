@@ -15,7 +15,7 @@ const Testi = ()=>{
                     <h3>Testimonial</h3>
                     <p>Berbagai review positif dari para pelanggan kami</p>
                 </div>,
-                <OwlCarousel className="owl-theme" items="2" nav loop center margin="20">
+                <OwlCarousel className="owl-theme" items="2" nav loop center>
                     <Cardousel/>
                     <Cardousel/>
                     <Cardousel/>
@@ -25,24 +25,4 @@ const Testi = ()=>{
         )
     }
 
-
-// import Carousel from "react-elastic-carousel";
-// import Card from "./card";
-
-// const Testi = ()=>{
-//     const breakPoints = [
-//         { width: 500, itemsToShow: 1},
-//         { width: 768, itemsToShow: 2},
-//         { width: 1200, itemsToShow: 3},
-//         { width: 1500, itemsToShow: 4}
-//     ];
-    
-//     return(
-//         <Carousel breakPoints={breakPoints}>
-//             <Card number="1" />
-//             <Card number="2" />
-//             <Card number="3" />
-//         </Carousel>
-//     )
-// }
 export default Testi
